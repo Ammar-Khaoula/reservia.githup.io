@@ -48,3 +48,30 @@ img{
         font-weight:bolder;
         font-size: 20px;
     }
+
+
+             /*footer*/
+     footer{
+        background-color: #F2F2F2;
+        margin: auto;
+        webkit-box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.8);
+        moz-box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.8);
+        box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.8);
+    }
+    .footer ul{
+        padding: auto;
+    }
+    .footer ul li{
+        list-style-type: none;
+        padding: 5px;
+        padding-bottom: 6px;
+    }
+  .footer{
+        display: inline-block;
+        margin: auto 70px;
+
+  }
+
+  .footer a:hover{
+         color: rgb(12, 89, 233);
+  }
