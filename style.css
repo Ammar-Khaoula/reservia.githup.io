@@ -1,0 +1,50 @@
+/*header*/
+img{
+    /*float: left;*/
+    width: 100px;
+    
+    }
+    #enTete{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header{
+    margin-top: 30px;
+    
+    }
+    .header ul{
+    
+    text-align: right;
+    
+    }
+    .header ul li{
+    
+    list-style-type: none;
+    display: inline;
+    margin-top: 30px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: rgb(37, 37, 37);
+    }
+    
+    .header a:hover{
+        color: blue;
+        border-top: 1px solid blue;
+        padding-top: 20px;
+    }  
+    
+    a:focus{
+    
+        color: blue;
+    }
+    
+    .toplink{
+        margin: 30px;
+        
+    }
+    .header ul li:nth-child(3){
+        font-weight:bolder;
+        font-size: 20px;
+    }
