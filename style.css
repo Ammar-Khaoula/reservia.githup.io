@@ -49,6 +49,93 @@ img{
         font-size: 20px;
     }
 
+     /*section1*/
+
+     .section1{
+        display: inline-block;
+        margin: 10px;
+        background-color:  #F2F2F2;
+        /*padding-bottom: 15px;*/
+        border: 0px black solid;
+        border-radius: 10px;
+        /*overflow: hidden;*/
+    }
+    
+    
+    .accommodation{
+        display: flex;
+         flex-direction: row; 
+         flex-wrap: wrap;
+         justify-content: space-between;
+    }
+
+    .accommodation img{
+        width: 150px;        
+        height: 100px;
+        overflow: hidden;
+        margin:10px;
+    }
+   
+    .mostPopular img{
+        width: 130px;
+        height:95px;
+        overflow: hidden;
+        margin:16px 10px;
+        padding-bottom: 10px;
+        
+         
+    }
+    .hebergement{
+        background-color: white;
+        border: 0px black solid;
+        margin: 10px;
+        border-radius: 15px;
+    }
+    .mostPopular{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: white;
+        border: 0px black solid;
+        border-radius: 15px;
+        margin: 10px;
+    }
+    .bold{
+        font-weight: bolder;
+    }
+    article{
+        width:55%;
+        overflow:auto;
+        display:inline-block;
+        
+    }
+    aside{
+        float: both;
+        /*width:30%;*/
+    
+    }
+    h2{
+        margin: 10px;
+    }
+    .accommodation span{
+       display: block; 
+       text-align: center;
+    }
+    .mostPopular span{
+        display: block;
+        width: 150px;
+        margin: auto 10px;
+    }
+    /*stars*/
+    .stars {
+		display: inline-flex;
+		justify-content: center;
+		font-size: 2em;
+	}
+    .fa-star.gold {
+        color:  #0065FC;
+    }
 
              /*footer*/
      footer{
