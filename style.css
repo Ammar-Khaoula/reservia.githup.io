@@ -51,14 +51,21 @@ img{
 
      /*section1*/
 
-     .section1{
+     .menu1{
+         display:flex;
+     }
+     .bestAccommodation{
         display: inline-block;
         margin: 10px;
         background-color:  #F2F2F2;
-        /*padding-bottom: 15px;*/
         border: 0px black solid;
         border-radius: 10px;
-        /*overflow: hidden;*/
+    }
+    .popular{
+        margin: 10px;
+        background-color:  #F2F2F2;
+        border: 0px black solid;
+        border-radius: 10px;
     }
     
     
@@ -70,19 +77,17 @@ img{
     }
 
     .hebergement img{
-        width: 200px;
-        height:100px;
+        width: 250px;
+        height:130px;
         margin: 10px;
     }
    
     .mostPopular img{
         width: 130px;
-        height:95px;
+        height:110px;
         overflow: hidden;
         margin:10px 5px;
-        padding-bottom: 10px;
-        
-         
+        padding-bottom: 10px;   
     }
     .hebergement{
         background-color: white;
@@ -104,24 +109,18 @@ img{
         font-weight: bolder;
     }
     article{
-        width:60%;
+        width:70%;
         overflow:auto;
         display:inline-block;
-        
-    }
-    aside{
-        float: both;
-        width:30%;
-    
     }
     h2{
         margin: 20px;
     }
     .accommodation span{
-       display: block; 
-     margin-left: 15px;
-     margin-top: 7px;
-     margin-bottom: 7px;
+        display: block; 
+        margin-left: 15px;
+        margin-top: 7px;
+        margin-bottom: 7px;
     }
     .mostPopular span{
         display: block;
@@ -149,11 +148,98 @@ img{
         justify-content: space-between;
     }
     .charts{
+
         font-size: 24px;
         margin: 20px;
     }
 
-
+          /*section2*/
+          .menu2{
+            margin: 20px;
+            display: flex;
+            justify-content: space-around;
+            
+          }
+          .menu2 span{
+            font-weight: bold;
+            text-transform:capitalize;
+          }
+          .activity{
+              margin: 20px;
+          }
+          
+          .harbor img{
+            height:300px;
+            width:200px;
+          }
+          .harbor{
+            border: 0px black solid;
+            border-radius: 15px;
+            -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            overflow: hidden;
+          }
+          .pomégues img{
+            height:100px;
+            width:200px;
+          }
+          .pomégues{
+            border: 0px black solid;
+            border-radius: 15px;
+            -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            overflow: hidden; 
+          }
+          .frioul img{
+            height:100px;
+            width:200px; 
+          }
+          .frioul{
+            border: 0px black solid;
+            border-radius: 15px;
+            -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            overflow: hidden;  
+          }
+          .parc img{
+            height:300px;
+            width:200px;
+          }
+          .parc{
+            border: 0px black solid;
+            border-radius: 15px;
+            -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            overflow: hidden;  
+          }
+          .florian img{
+            height:100px;
+            width:200px;
+          }
+          .florian{
+            border: 0px black solid;
+            border-radius: 15px;
+            -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            overflow: hidden;   
+          }
+          .parcLongchamp img{
+            height:100px;
+            width:200px;
+          }
+          .parcLongchamp{
+            border: 0px black solid;
+            border-radius: 15px;
+            -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+            overflow: hidden;   
+          }
 
    
 		
