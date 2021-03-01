@@ -69,18 +69,17 @@ img{
          justify-content: space-between;
     }
 
-    .accommodation img{
-        width: 150px;        
-        height: 100px;
-        overflow: hidden;
-        margin:10px;
+    .hebergement img{
+        width: 200px;
+        height:100px;
+        margin: 10px;
     }
    
     .mostPopular img{
         width: 130px;
         height:95px;
         overflow: hidden;
-        margin:16px 10px;
+        margin:10px 5px;
         padding-bottom: 10px;
         
          
@@ -88,7 +87,7 @@ img{
     .hebergement{
         background-color: white;
         border: 0px black solid;
-        margin: 10px;
+        margin: 5px;
         border-radius: 15px;
     }
     .mostPopular{
@@ -105,37 +104,60 @@ img{
         font-weight: bolder;
     }
     article{
-        width:55%;
+        width:60%;
         overflow:auto;
         display:inline-block;
         
     }
     aside{
         float: both;
-        /*width:30%;*/
+        width:30%;
     
     }
     h2{
-        margin: 10px;
+        margin: 20px;
     }
     .accommodation span{
        display: block; 
-       text-align: center;
+     margin-left: 15px;
+     margin-top: 7px;
+     margin-bottom: 7px;
     }
     .mostPopular span{
         display: block;
         width: 150px;
-        margin: auto 10px;
+        margin: 5px 10px;
     }
     /*stars*/
     .stars {
-		display: inline-flex;
-		justify-content: center;
-		font-size: 2em;
-	}
-    .fa-star.gold {
-        color:  #0065FC;
+        display: inline;
+        width:15px;
+        height: 15px;
+        margin: 0px;
+        margin-left: 7px;
+        justify-content: space-around;
     }
+   
+    .stars .gold{
+        color: #0065FC;
+    }
+    .stars #emptyStar{
+        color: #c0bfbf;
+    }
+    .align{
+        display: flex;
+        justify-content: space-between;
+    }
+    .charts{
+        font-size: 24px;
+        margin: 20px;
+    }
+
+
+
+   
+		
+	
 
              /*footer*/
      footer{
