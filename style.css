@@ -35,7 +35,7 @@ img{
         padding-top: 20px;
     }  
     
-    a:focus{
+    .header a:focus{
     
         color: blue;
     }
@@ -155,22 +155,23 @@ img{
 
           /*section2*/
           .menu2{
-            margin: 20px;
             display: flex;
-            justify-content: space-around;
+            position: relative;
+            top:25px;
             
           }
           .menu2 span{
             font-weight: bold;
             text-transform:capitalize;
+            position: relative;
+            left: 20px;
           }
-          .activity{
-              margin: 20px;
-          }
-          
+        
           .harbor img{
-            height:300px;
-            width:200px;
+            height:330px;
+            width:260px;
+            position: relative;
+
           }
           .harbor{
             border: 0px black solid;
@@ -179,22 +180,32 @@ img{
             -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
             box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
             overflow: hidden;
+            position: relative;
+            bottom: 30px;
+            left: 20px;
           }
           .pomégues img{
-            height:100px;
-            width:200px;
+            height:130px;
+            width:260px;
+            position: relative;
+            bottom: 10px;
           }
           .pomégues{
             border: 0px black solid;
-            border-radius: 15px;
+            border-radius: 10px;
             -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
             -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
             box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
             overflow: hidden; 
+            position: relative;
+            bottom: 30px;
+            left: 60px;
           }
           .frioul img{
-            height:100px;
-            width:200px; 
+            height:130px;
+            width:260px;
+            position: relative;
+            bottom: 10px; 
           }
           .frioul{
             border: 0px black solid;
@@ -202,11 +213,14 @@ img{
             -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
             -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
             box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            overflow: hidden;  
+            overflow: hidden; 
+            position: relative;
+            left: 60px;
+            top: 5px; 
           }
           .parc img{
-            height:300px;
-            width:200px;
+            height:330px;
+            width:260px;
           }
           .parc{
             border: 0px black solid;
@@ -214,11 +228,16 @@ img{
             -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
             -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
             box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            overflow: hidden;  
+            overflow: hidden; 
+            position: relative;
+            bottom: 30px;
+            left:100px ; 
           }
           .florian img{
-            height:100px;
-            width:200px;
+            height:130px;
+            width:260px;
+            position: relative;
+            bottom: 10px;
           }
           .florian{
             border: 0px black solid;
@@ -226,11 +245,16 @@ img{
             -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
             -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
             box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            overflow: hidden;   
+            overflow: hidden; 
+            position: relative;
+            bottom: 30px;  
+            left: 140px;
           }
           .parcLongchamp img{
-            height:100px;
-            width:200px;
+            height:130px;
+            width:260px;
+            position: relative;
+            bottom: 10px;
           }
           .parcLongchamp{
             border: 0px black solid;
@@ -239,6 +263,12 @@ img{
             -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
             box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
             overflow: hidden;   
+            position: relative;
+            left: 140px;
+            top: 5px;
+          }
+          h2{
+            text-transform: capitalize;
           }
 
    
@@ -252,6 +282,8 @@ img{
         webkit-box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.8);
         moz-box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.8);
         box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.8);
+        position: relative;
+        top: 50px;
     }
     .footer ul{
         padding: auto;
