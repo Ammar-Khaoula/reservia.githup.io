@@ -1,8 +1,8 @@
 /*header*/
 img{
-    /*float: left;*/
     width: 100px;
-    
+    position: relative;
+    left: 15px;
     }
     #enTete{
         display: flex;
@@ -49,9 +49,225 @@ img{
         font-size: 20px;
     }
 
+         /*nav*/
+    nav p{
+      position: relative;
+      left: 25px;
+    }
+
+    .information button{
+        background-color:#0065FC;
+        color: white;
+        height:60px ;
+        width:150px ;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+   }
+    .information{
+       display: flex;
+       margin: 20px;
+   }
+    .information input{
+       height:35px;
+       width: 300px;
+       font-weight: bolder;
+       font-size: 20px;
+       padding: 10px;
+   }
+   .information i {
+       width:40px;
+       height:30px;
+       font-size: 30px;
+       text-align: center;
+       padding: 15px;
+       background-color: #F2F2F2;
+       border-top-left-radius: 15px;
+       border-bottom-left-radius: 15px;
+   }
+
+   /*
+    input[type=checkbox]{
+      display:none;
+  }
+
+    .filtres{
+      display: flex;
+      margin: 30px;
+      
+  }
+    label{
+      display: block;
+      margin: 20px 25px;
+      padding: 15px 20px;
+      width: 130px;
+      height: 20px;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      border: 1px rgb(82, 81, 81) solid;
+      border-radius: 25px;
+  }
+    .filtres #family{
+      width: 110px;
+  }
+    .filtres #animal{
+      width: 170px;
+  }
+    label::after{
+      content:"";
+      display: block;
+      
+      position: relative;
+      bottom: 35px;
+      right: 35px;
+      width: 50px;
+      height: 50px;
+      background-color: #DEEBFF;
+      border-radius: 50%;
+  }
+    .filtres h3{
+      position: relative;
+      top: 15px; 
+  }
+    .filtres .fa-child{
+      color: blue;
+      font-size: 24px;
+      
+  }*/
+  #filtres h3{
+   position: relative;
+   left:20px;
+   bottom: 10px;
+  }
+  #filtres{
+    display: flex;
+  }
+  .economics{
+    display: flex; 
+    position: relative;
+    left: 35px;
+  }
+  .childs {
+     display: flex;
+     position: relative;
+     left: 70px;
+   }
+   .romantics{
+     display: flex; 
+     position: relative; 
+     left: 105px;
+   }
+   .animals{
+       display: flex;
+       position: relative;
+       left:140px;
+   }
+   
+
+   #money{
+    background-color: #DEEBFF;
+    border: 0px black solid;
+    border-radius: 50%;
+    width:40px ;
+    height:40px ;
+    position: relative;
+    left: 25px;  
+}
+   #child {
+       background-color: #DEEBFF;
+       border: 0px black solid;
+       border-radius: 50%;
+       width:40px ;
+       height:40px ;
+       position: relative;
+       left: 25px;     
+   }
+   
+   #heart{
+      background-color: #DEEBFF;
+      border: 0px black solid;
+      border-radius: 50%;
+      width:40px ;
+      height:40px ;
+      position: relative;
+      left: 25px; 
+   }
+   #dog{
+      background-color: #DEEBFF;
+      border: 0px black solid;
+      border-radius: 50%;
+      width:40px ;
+      height:40px ;
+      position: relative;
+      left: 25px; 
+ }
+
+   #economic{
+       border: 1px rgb(211, 207, 207) solid;
+       border-radius:20px ;
+       width:150px ;
+       height: 40px;
+   }
+   #family{
+       border: 1px rgb(211, 207, 207) solid;
+       border-radius:20px ;
+       width:150px ;
+       height: 40px;
+   }
+   #romantic{
+       border: 1px rgb(211, 207, 207) solid;
+       border-radius:20px ;
+       width:150px ;
+       height: 40px; 
+   }
+   #animal{
+       border: 1px rgb(211, 207, 207) solid;
+       border-radius:20px ;
+       width:190px ;
+       height: 40px;  
+   }
+
+   .fa-child{
+       position: relative;
+       left: 13px;
+       top: 10px;
+       font-weight: bolder;
+       font-size: 40px;
+       color: #0065FC;
+   }
+   .fa-money-bill{
+    position: relative;
+    left: 15px;
+    top: 10px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #0065FC;  
+   }
+   .fa-heart{
+    position: relative;
+    left: 13px;
+    top: 13px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #0065FC;  
+   }
+   .fa-dog{
+    position: relative;
+    left: 13px;
+    top: 13px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #0065FC;  
+   }
+   #filtres h4{
+       text-align: center;
+       position: relative;
+       bottom: 10px;
+   }
+
      /*section1*/
 
-     .menu1{
+    .menu1{
          display:flex;
      }
      .bestAccommodation{
@@ -154,127 +370,122 @@ img{
     }
 
           /*section2*/
-          .menu2{
+    .menu2{
             display: flex;
             position: relative;
             top:25px;
             
           }
-          .menu2 span{
-            font-weight: bold;
-            text-transform:capitalize;
-            position: relative;
-            left: 20px;
+    .menu2 span{
+        font-weight: bold;
+        text-transform:capitalize;
+        position: relative;
+        left: 20px;
           }
         
-          .harbor img{
-            height:330px;
-            width:260px;
-            position: relative;
+    .harbor img{
+        height:330px;
+        width:260px;
+        position: relative;
 
           }
-          .harbor{
-            border: 0px black solid;
-            border-radius: 15px;
-            -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            overflow: hidden;
-            position: relative;
-            bottom: 30px;
-            left: 20px;
-          }
-          .pomégues img{
-            height:130px;
-            width:260px;
-            position: relative;
-            bottom: 10px;
-          }
-          .pomégues{
-            border: 0px black solid;
-            border-radius: 10px;
-            -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            overflow: hidden; 
-            position: relative;
-            bottom: 30px;
-            left: 60px;
-          }
-          .frioul img{
-            height:130px;
-            width:260px;
-            position: relative;
-            bottom: 10px; 
-          }
-          .frioul{
-            border: 0px black solid;
-            border-radius: 15px;
-            -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            overflow: hidden; 
-            position: relative;
-            left: 60px;
-            top: 5px; 
-          }
-          .parc img{
-            height:330px;
-            width:260px;
-          }
-          .parc{
-            border: 0px black solid;
-            border-radius: 15px;
-            -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            overflow: hidden; 
-            position: relative;
-            bottom: 30px;
-            left:100px ; 
-          }
-          .florian img{
-            height:130px;
-            width:260px;
-            position: relative;
-            bottom: 10px;
-          }
-          .florian{
-            border: 0px black solid;
-            border-radius: 15px;
-            -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            overflow: hidden; 
-            position: relative;
-            bottom: 30px;  
-            left: 140px;
-          }
-          .parcLongchamp img{
-            height:130px;
-            width:260px;
-            position: relative;
-            bottom: 10px;
-          }
-          .parcLongchamp{
-            border: 0px black solid;
-            border-radius: 15px;
-            -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-            overflow: hidden;   
-            position: relative;
-            left: 140px;
-            top: 5px;
-          }
-          h2{
-            text-transform: capitalize;
-          }
-
-   
-		
-	
-
+    .harbor{
+        border: 0px black solid;
+        border-radius: 15px;
+        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        overflow: hidden;
+        position: relative;
+        bottom: 30px;
+        left: 20px;
+   }
+    .pomégues img{
+        height:130px;
+        width:260px;
+        position: relative;
+        bottom: 10px;
+   }
+    .pomégues{
+        border: 0px black solid;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        overflow: hidden; 
+        position: relative;
+        bottom: 30px;
+        left: 60px;
+    }
+    .frioul img{
+        height:130px;
+        width:260px;
+        position: relative;
+        bottom: 10px;
+    }
+    .frioul{
+        border: 0px black solid;
+        border-radius: 15px;
+        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        overflow: hidden; 
+        position: relative;
+        left: 60px;
+        top: 5px; 
+   }
+    .parc img{
+        height:330px;
+        width:260px;
+  }
+    .parc{
+        border: 0px black solid;
+        border-radius: 15px;
+        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        overflow: hidden; 
+        position: relative;
+        bottom: 30px;
+        left:100px ; 
+  }
+    .florian img{
+        height:130px;
+        width:260px;
+        position: relative;
+        bottom: 10px;
+  }
+    .florian{
+        border: 0px black solid;
+        border-radius: 15px;
+        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        overflow: hidden; 
+        position: relative;
+        bottom: 30px;  
+        left: 140px;
+  }
+    .parcLongchamp img{
+        height:130px;
+        width:260px;
+        position: relative;
+        bottom: 10px;
+  }
+    .parcLongchamp{
+        border: 0px black solid;
+        border-radius: 15px;
+        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        overflow: hidden;   
+        position: relative;
+        left: 140px;
+        top: 5px;
+  }
+    h2{
+         text-transform: capitalize;
+  }
              /*footer*/
      footer{
         background-color: #F2F2F2;
