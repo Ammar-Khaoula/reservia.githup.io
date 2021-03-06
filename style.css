@@ -3,7 +3,6 @@
 }
 body{
     margin: 20px;
-    padding: auto;
     text-align: justify;
     font-family: 'Raleway', sans-serif;
 }
@@ -221,7 +220,6 @@ a{
         border: 0px black solid;
         border-radius: 15px;
         margin: 20px;
-        padding: auto;
     }
     .bold{
         font-weight: bolder;
@@ -251,11 +249,6 @@ a{
         right: 30px;
         
     }
-    /*.discription{
-        position: relative;
-        right: 30px;
-        
-    }*/
     .align{
         display: flex;
         justify-content: space-between;
@@ -264,7 +257,6 @@ a{
         font-size: 30px;
         margin: 20px;
     }
-   
 
     /*stars*/
     .stars .gold{
@@ -287,9 +279,6 @@ a{
         right: 50px;
     }
    
-  
-    
-
           /*section2*/
     .menu{
             display: flex;
@@ -315,8 +304,6 @@ a{
     .harbor{
         border: 0px black solid;
         border-radius: 15px;
-        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         overflow: hidden;
         position: relative;
@@ -332,8 +319,6 @@ a{
     .pomégues{
         border: 0px black solid;
         border-radius: 10px;
-        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         overflow: hidden; 
         position: relative;
@@ -349,8 +334,6 @@ a{
     .frioul{
         border: 0px black solid;
         border-radius: 15px;
-        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         overflow: hidden; 
         position: relative;
@@ -364,8 +347,6 @@ a{
     .parc{
         border: 0px black solid;
         border-radius: 15px;
-        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         overflow: hidden; 
         position: relative;
@@ -381,8 +362,6 @@ a{
     .florian{
         border: 0px black solid;
         border-radius: 15px;
-        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         overflow: hidden; 
         position: relative;
@@ -398,8 +377,6 @@ a{
     .parcLongchamp{
         border: 0px black solid;
         border-radius: 15px;
-        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         overflow: hidden;   
         position: relative;
@@ -412,16 +389,9 @@ a{
              /*footer*/
      footer{
         background-color: #F2F2F2;
-        margin: auto;
-        webkit-box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.8);
-        moz-box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.8);
-        box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.8);
-        position: relative;
-        top: 50px;
+        margin: 25px 5px;
     }
-    #footer ul{
-        padding: auto;
-    }
+    
     #footer ul li{
         list-style-type: none;
         padding: 5px;
@@ -430,7 +400,6 @@ a{
   #footer{
         display:flex;
         justify-content: space-around;
-
   }
 
   
