@@ -1,273 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+    padding: auto;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
 /*header*/
-img{
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
     width: 100px;
-    position: relative;
-    left: 15px;
-    }
-    #enTete{
-        display: flex;
-        justify-content: space-between;
-    }
-    .header{
-    margin-top: 30px;
+}    
     
-    }
-    .header ul{
-    
-    text-align: right;
-    
-    }
-    .header ul li{
+.header ul li{
     
     list-style-type: none;
-    display: inline;
-    margin-top: 30px;
-    }
+    display: inline;    
+}
+      
+a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
     
-    a{
-        text-decoration: none;
-        color: rgb(37, 37, 37);
-    }
-    
-    .header a:hover{
-        color: blue;
-        border-top: 1px solid blue;
-        padding-top: 20px;
-    }  
-    
-    .header a:focus{
-    
-        color: blue;
-    }
-    
-    .toplink{
-        margin: 30px;
-        
-    }
-    .header ul li:nth-child(3){
-        font-weight:bolder;
-        font-size: 20px;
-    }
+.header a:hover{
+    color: blue;
+    border-top: 1px solid blue;
+    padding-top: 20px;
+}  
+     
+.toplink{
+    margin: 30px;   
+}
+#color{
+    color: blue;
+    font-weight:bolder;
+    font-size: 20px;  
+}
+   
 
          /*nav*/
-    nav p{
-      position: relative;
-      left: 25px;
-    }
 
-    .information button{
-        background-color:#0065FC;
-        color: white;
-        height:60px ;
-        width:150px ;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-   }
-    .information{
-       display: flex;
-       margin: 20px;
-   }
-    .information input{
-       height:35px;
-       width: 300px;
-       font-weight: bolder;
-       font-size: 20px;
-       padding: 10px;
-   }
-   .information i {
-       width:40px;
-       height:30px;
-       font-size: 30px;
-       text-align: center;
-       padding: 15px;
-       background-color: #F2F2F2;
-       border-top-left-radius: 15px;
-       border-bottom-left-radius: 15px;
-   }
-
-   /*
-    input[type=checkbox]{
-      display:none;
-  }
-
-    .filtres{
-      display: flex;
-      margin: 30px;
-      
-  }
-    label{
-      display: block;
-      margin: 20px 25px;
-      padding: 15px 20px;
-      width: 130px;
-      height: 20px;
-      text-align: center;
-      font-weight: bold;
-      cursor: pointer;
-      border: 1px rgb(82, 81, 81) solid;
-      border-radius: 25px;
-  }
-    .filtres #family{
-      width: 110px;
-  }
-    .filtres #animal{
-      width: 170px;
-  }
-    label::after{
-      content:"";
-      display: block;
-      
-      position: relative;
-      bottom: 35px;
-      right: 35px;
-      width: 50px;
-      height: 50px;
-      background-color: #DEEBFF;
-      border-radius: 50%;
-  }
-    .filtres h3{
-      position: relative;
-      top: 15px; 
-  }
-    .filtres .fa-child{
-      color: blue;
-      font-size: 24px;
-      
-  }*/
-  #filtres h3{
-   position: relative;
-   left:20px;
-   bottom: 10px;
-  }
-  #filtres{
+.information{    
     display: flex;
-  }
-  .economics{
-    display: flex; 
-    position: relative;
-    left: 35px;
-  }
-  .childs {
-     display: flex;
-     position: relative;
-     left: 70px;
-   }
-   .romantics{
-     display: flex; 
-     position: relative; 
-     left: 105px;
-   }
-   .animals{
-       display: flex;
-       position: relative;
-       left:140px;
-   }
-   
-
-   #money{
-    background-color: #DEEBFF;
-    border: 0px black solid;
-    border-radius: 50%;
-    width:40px ;
-    height:40px ;
-    position: relative;
-    left: 25px;  
 }
-   #child {
-       background-color: #DEEBFF;
-       border: 0px black solid;
-       border-radius: 50%;
-       width:40px ;
-       height:40px ;
-       position: relative;
-       left: 25px;     
-   }
-   
-   #heart{
-      background-color: #DEEBFF;
-      border: 0px black solid;
-      border-radius: 50%;
-      width:40px ;
-      height:40px ;
-      position: relative;
-      left: 25px; 
-   }
-   #dog{
-      background-color: #DEEBFF;
-      border: 0px black solid;
-      border-radius: 50%;
-      width:40px ;
-      height:40px ;
-      position: relative;
-      left: 25px; 
- }
 
-   #economic{
-       border: 1px rgb(211, 207, 207) solid;
-       border-radius:20px ;
-       width:150px ;
-       height: 40px;
-   }
-   #family{
-       border: 1px rgb(211, 207, 207) solid;
-       border-radius:20px ;
-       width:150px ;
-       height: 40px;
-   }
-   #romantic{
-       border: 1px rgb(211, 207, 207) solid;
-       border-radius:20px ;
-       width:150px ;
-       height: 40px; 
-   }
-   #animal{
-       border: 1px rgb(211, 207, 207) solid;
-       border-radius:20px ;
-       width:190px ;
-       height: 40px;  
-   }
-
-   .fa-child{
-       position: relative;
-       left: 13px;
-       top: 10px;
-       font-weight: bolder;
-       font-size: 40px;
-       color: #0065FC;
-   }
-   .fa-money-bill{
-    position: relative;
-    left: 15px;
-    top: 10px;
+.information button{
+    background-color:#0065FC;
+    color: white;
+    height:50px ;
+    width:150px ;
     font-weight: bolder;
-    font-size: 40px;
-    color: #0065FC;  
-   }
-   .fa-heart{
-    position: relative;
-    left: 13px;
-    top: 13px;
+    border: 0px black solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.information input{
+    height:50px;
+    width: 300px;
     font-weight: bolder;
-    font-size: 40px;
-    color: #0065FC;  
-   }
-   .fa-dog{
+    font-size: 20px;
+    padding-left: 20px;
+    border: 1px rgb(219, 217, 217) solid;
+}
+.fa-map-marker{
+    width:50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    color: black;
     position: relative;
-    left: 13px;
-    top: 13px;
-    font-weight: bolder;
-    font-size: 40px;
-    color: #0065FC;  
+    left: 5px;
+    background-color: #F2F2F2;
+    border: 0px black solid;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.search-button span{
+    opacity: 1;
+}
+.search-button i{
+    opacity: 0;
+}
+   .filter-container{
+       display: flex;
+       justify-content: space-between;
+       width: 80%;
    }
-   #filtres h4{
-       text-align: center;
-       position: relative;
+   .filter-container h2{
+       position:relative;
        bottom: 10px;
    }
+   .filter-button i{
+       color: #0065FC;
+       border: 0px black solid;
+       border-radius: 50%;
+       background-color: #DEEBFF ;
+       width: 45px;
+       height: 45px;
+       font-size: 20px;
+   }
+   .filter-button button{
+       border: 1px rgb(214, 210, 210) solid; 
+       border-radius: 20px;
+       width:160px ;
+       height:45px ; 
+       background-color: white;
+       font-weight: bolder;
+       text-transform: capitalize;
+       
+   }
+   #dog button{
+       width: 200px;
+   }
+   .fa-money-bill-wave{
+      position: relative;
+      right: 20px;
+      bottom: 3px;
+      padding: 10px; 
+   }
+   .fa-child{
+      position: relative;
+      right: 35px;
+      bottom: 3px;
+      padding: 10px; 
+   }
+   .fa-heart{
+       position: relative;
+       right: 20px;
+       bottom: 3px;
+       padding: 10px; 
+   }
+   .fa-dog{
+       position: relative;
+       right: 20px;
+       bottom: 3px;
+       padding: 10px;
+   }
+   .filter-text{
+       display:flex;
+   }
+   .fa-info{
+       color: #0065FC;
+       border: 1px rgb(212, 211, 211) solid;
+       border-radius: 30px;
+       width:25px;
+       height: 25px;
+       position: relative;
+       top:10px;
+       text-align: center;
+   }
+   .filter-text p{
+       position: relative;
+       left: 20px;
+   }
+   
+
 
      /*section1*/
 
-    .menu1{
+    #menu1{
          display:flex;
      }
      .bestAccommodation{
@@ -370,13 +267,13 @@ img{
     }
 
           /*section2*/
-    .menu2{
+    .menu{
             display: flex;
             position: relative;
             top:25px;
             
           }
-    .menu2 span{
+    .menu span{
         font-weight: bold;
         text-transform:capitalize;
         position: relative;

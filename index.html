@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,600;0,700;1,400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/613a25ab47.js" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -17,95 +18,73 @@
     <!--header-->
 
     <header>
-        <div id="enTete">
-            <div class="header">
-                <img src="./images/logo/Reservia@3x.png">
-            </div>
-            <div class="header">
 
-                <ul>
-
-                    <li><a class="toplink" href="#">hébergements</a></li>
-                    <li><a class="toplink" href="#">Activites</a></li>
-                    <li><a class="toplink" href="#">s'inscrire</a></li>
-                </ul>
-            </div>
+        <div class="header">
+            <img src="./images/logo/Reservia@3x.png">
         </div>
+
+        <div class="header">
+            <ul>
+                <li><a class="toplink" href="#menu1">hébergements</a></li>
+                <li><a class="toplink" href="#menu2">Activites</a></li>
+                <li><a class="toplink" id="color" href="#">s'inscrire</a></li>
+            </ul>
+        </div>
+
     </header></br>
 
     <!--nav-->
-    <nav>
 
+    <nav>
         <h2>trouvez votre hébergement pour des vacances de rêve</h2>
         <p> plein centre ville ou en plein nature</p>
         <div class="information">
-            <div><i class="fa fa-map-marker"></i></div>
-            <div><input type="text" class="items inputSearch" placeholder="Rechercher" value="Marseille, France" />
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <input type="text" value="Marseille, France" />
             </div>
-            <div><button class="items btnSearch">Rechercher</button></div>
+            <div><button class="search-button">
+                    <i class="fa fa-search"></i>
+                    <span>Rechercher</span>
+
+                </button>
+
+            </div>
         </div>
+        </br>
 
-        <!--
-        <form>
-            <div class="filtres">
-                <div>
-                    <h3>filtres</h3>
-                </div>
-
-                <div><input type="checkbox" name="Economique">
-                    <label for="toggle">economique</label>
-                </div>
-
-                <div><input type="checkbox" name="Familial">
-                      <i class="fa fa-child"></i>
-                    <label for="toggle" id="family">Familial</label>
-                </div>
-
-                <div><input type="checkbox" name="Romantique">
-                    <i class="fa fa-heart"></i>
-                    <label for="toggle">Romantique</label>
-                </div>
-
-                <div><input type="checkbox" name="Animeaux Autorisés">
-                    
-                    <label for="toggle" id="animal">Animeaux Autorisés</label>
-                </div>
-            </div>
-        </form> -->
-
-        <div id="filtres">
-            <div><h3>filtres</h3></div>
-
-            <div class="economics">
-                <div id="money"><i class='fas fa-money-bill'></i></div> 
-                <div id="economic"><h4>économique</h4></div>
+        <div class="filter-container">
+            <h2>Filtres</h2>
+            <div class="filter-button">
+                <button> <i class="fas fa-money-bill-wave"></i>
+                   économique</button>
             </div>
 
-            <div class="childs">
-                <div id="child"><i class="fa fa-child"></i></div>
-                <div id="family"> <h4>familial</h4></div>
+            <div class="filter-button">
+                <button> <i class="fas fa-child"></i>
+                    familial</button>
             </div>
 
-            <div class="romantics">
-                <div id="heart"><i class="fa fa-heart"></i></div>
-                <div id="romantic"><h4>romantique</h4></div>
+            <div class="filter-button">
+                <button> <i class="fas fa-heart"></i>
+                    romantique</button>
             </div>
 
-            <div class="animals">
-                <div id="dog"><i class="fas fa-dog"></i></div>
-                <div id="animal"><h4>Animeaux Autorisés</h4></div>
+            <div class="filter-button" id="dog">
+                <button> <i class="fas fa-dog"></i>
+                    animaux autorisés</button>
             </div>
-
         </div>
-
-        <div><i class="icon-info-sign"></i></div>
-        <p><small>plus des 500 logements sont disponibles dans cette ville</small></p>
-
+        </div>
+        <div class="filter-text">
+            <i class="fas fa-info"></i>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
     </nav>
 
     <!--section1-->
 
-    <section class="menu1">
+    <section id="menu1">
         <!--article-->
         <article class="bestAccommodation">
             <h2><a href="index.html">hébergements à Marseille</a></h2>
@@ -286,10 +265,10 @@
         </aside>
     </section>
     <!--section2-->
-    
-    <section>
+
+    <section id="menu2">
         <h2><a href="#">activités à Marseille</a></h2>
-        <div class="menu2">
+        <div class="menu">
 
             <div class="harbor">
                 <a href="#">
@@ -367,7 +346,8 @@
             </ul>
         </div>
     </footer>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+
 </body>
 
 </html>
