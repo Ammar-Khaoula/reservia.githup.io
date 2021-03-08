@@ -1,28 +1,43 @@
 body{
-    margin: 5px;
+    margin: 20px;
 }
 /*header*/
 
 .links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
   }
-  .links :nth-child(1) { order: 2; }
-  .links :nth-child(2) { order: 3; }
-  .links :nth-child(3) { order: 1; }
-
 .toplink{
     position: relative;
-    top:40px;
-    right:300px;
-    padding: 5px 25px;
-} 
-#color{
-    position: relative;
-    left: 100px;
-} 
+    right: 300px;
+    bottom: 40px;
+}
+
 .header a:hover{
     border-top: none;
     border-bottom: 1px solid blue;
     padding-bottom: 5px;
 }  
+
+   /*nav*/
+   
+.information button{
+    height:50px;
+    width:50px;
+    border-radius:15px;
+    position: relative;
+    right: 20px;
+} 
+.search-button span{
+    opacity: 0;
+}
+.search-button i{
+    opacity: 1;
+}
+.fa-search{
+    position: relative;
+    top: 7px;
+}
+.information input{
+    width: 280px;
+}
