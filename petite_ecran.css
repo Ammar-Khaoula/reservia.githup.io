@@ -1,0 +1,28 @@
+body{
+    margin: 5px;
+}
+/*header*/
+
+.links {
+    display: flex;
+    flex-direction: row;
+  }
+  .links :nth-child(1) { order: 2; }
+  .links :nth-child(2) { order: 3; }
+  .links :nth-child(3) { order: 1; }
+
+.toplink{
+    position: relative;
+    top:40px;
+    right:300px;
+    padding: 5px 25px;
+} 
+#color{
+    position: relative;
+    left: 100px;
+} 
+.header a:hover{
+    border-top: none;
+    border-bottom: 1px solid blue;
+    padding-bottom: 5px;
+}  

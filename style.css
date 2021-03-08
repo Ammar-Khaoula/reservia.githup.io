@@ -1,273 +1,174 @@
-/*header*/
-img{
-    width: 100px;
-    position: relative;
-    left: 15px;
-    }
-    #enTete{
-        display: flex;
-        justify-content: space-between;
-    }
-    .header{
-    margin-top: 30px;
-    
-    }
-    .header ul{
-    
-    text-align: right;
-    
-    }
-    .header ul li{
-    
-    list-style-type: none;
-    display: inline;
-    margin-top: 30px;
-    }
-    
-    a{
-        text-decoration: none;
-        color: rgb(37, 37, 37);
-    }
-    
-    .header a:hover{
-        color: blue;
-        border-top: 1px solid blue;
-        padding-top: 20px;
-    }  
-    
-    .header a:focus{
-    
-        color: blue;
-    }
-    
-    .toplink{
-        margin: 30px;
-        
-    }
-    .header ul li:nth-child(3){
-        font-weight:bolder;
-        font-size: 20px;
-    }
-
-         /*nav*/
-    nav p{
-      position: relative;
-      left: 25px;
-    }
-
-    .information button{
-        background-color:#0065FC;
-        color: white;
-        height:60px ;
-        width:150px ;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-   }
-    .information{
-       display: flex;
-       margin: 20px;
-   }
-    .information input{
-       height:35px;
-       width: 300px;
-       font-weight: bolder;
-       font-size: 20px;
-       padding: 10px;
-   }
-   .information i {
-       width:40px;
-       height:30px;
-       font-size: 30px;
-       text-align: center;
-       padding: 15px;
-       background-color: #F2F2F2;
-       border-top-left-radius: 15px;
-       border-bottom-left-radius: 15px;
-   }
-
-   /*
-    input[type=checkbox]{
-      display:none;
-  }
-
-    .filtres{
-      display: flex;
-      margin: 30px;
-      
-  }
-    label{
-      display: block;
-      margin: 20px 25px;
-      padding: 15px 20px;
-      width: 130px;
-      height: 20px;
-      text-align: center;
-      font-weight: bold;
-      cursor: pointer;
-      border: 1px rgb(82, 81, 81) solid;
-      border-radius: 25px;
-  }
-    .filtres #family{
-      width: 110px;
-  }
-    .filtres #animal{
-      width: 170px;
-  }
-    label::after{
-      content:"";
-      display: block;
-      
-      position: relative;
-      bottom: 35px;
-      right: 35px;
-      width: 50px;
-      height: 50px;
-      background-color: #DEEBFF;
-      border-radius: 50%;
-  }
-    .filtres h3{
-      position: relative;
-      top: 15px; 
-  }
-    .filtres .fa-child{
-      color: blue;
-      font-size: 24px;
-      
-  }*/
-  #filtres h3{
-   position: relative;
-   left:20px;
-   bottom: 10px;
-  }
-  #filtres{
-    display: flex;
-  }
-  .economics{
-    display: flex; 
-    position: relative;
-    left: 35px;
-  }
-  .childs {
-     display: flex;
-     position: relative;
-     left: 70px;
-   }
-   .romantics{
-     display: flex; 
-     position: relative; 
-     left: 105px;
-   }
-   .animals{
-       display: flex;
-       position: relative;
-       left:140px;
-   }
-   
-
-   #money{
-    background-color: #DEEBFF;
-    border: 0px black solid;
-    border-radius: 50%;
-    width:40px ;
-    height:40px ;
-    position: relative;
-    left: 25px;  
+*{
+    box-sizing: border-box;
 }
-   #child {
-       background-color: #DEEBFF;
-       border: 0px black solid;
-       border-radius: 50%;
-       width:40px ;
-       height:40px ;
-       position: relative;
-       left: 25px;     
-   }
+body{
+    margin: 20px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    width: 100px;
+    margin-top: 10px;
+} 
+.links{
+    display: flex; 
+}       
+.header ul li{    
+    list-style-type: none;   
+    margin: 10px 30px;  
+}
+      
+a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+    
+.header a:hover{
+    color: blue;
+    border-top: 1px solid blue;
+    padding-top: 20px;
+}  
+     
+#color{
+    color: blue;
+    font-weight:bolder;
+    font-size: 20px;  
+}
    
-   #heart{
-      background-color: #DEEBFF;
-      border: 0px black solid;
-      border-radius: 50%;
-      width:40px ;
-      height:40px ;
-      position: relative;
-      left: 25px; 
-   }
-   #dog{
-      background-color: #DEEBFF;
-      border: 0px black solid;
-      border-radius: 50%;
-      width:40px ;
-      height:40px ;
-      position: relative;
-      left: 25px; 
- }
+         /*nav*/
 
-   #economic{
-       border: 1px rgb(211, 207, 207) solid;
-       border-radius:20px ;
-       width:150px ;
-       height: 40px;
-   }
-   #family{
-       border: 1px rgb(211, 207, 207) solid;
-       border-radius:20px ;
-       width:150px ;
-       height: 40px;
-   }
-   #romantic{
-       border: 1px rgb(211, 207, 207) solid;
-       border-radius:20px ;
-       width:150px ;
-       height: 40px; 
-   }
-   #animal{
-       border: 1px rgb(211, 207, 207) solid;
-       border-radius:20px ;
-       width:190px ;
-       height: 40px;  
-   }
+.information{    
+    display: flex;
+}
 
-   .fa-child{
-       position: relative;
-       left: 13px;
-       top: 10px;
-       font-weight: bolder;
-       font-size: 40px;
-       color: #0065FC;
-   }
-   .fa-money-bill{
-    position: relative;
-    left: 15px;
-    top: 10px;
+.information button{
+    background-color:#0065FC;
+    color: white;
+    height:50px ;
+    width:150px ;
     font-weight: bolder;
-    font-size: 40px;
-    color: #0065FC;  
-   }
-   .fa-heart{
-    position: relative;
-    left: 13px;
-    top: 13px;
+    border: 0px black solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.information input{
+    height:50px;
+    width: 300px;
     font-weight: bolder;
-    font-size: 40px;
-    color: #0065FC;  
-   }
-   .fa-dog{
+    font-size: 20px;
+    padding-left: 20px;
+    border: 1px rgb(219, 217, 217) solid;
+}
+.fa-map-marker{
+    width:50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    color: black;
     position: relative;
-    left: 13px;
-    top: 13px;
-    font-weight: bolder;
-    font-size: 40px;
-    color: #0065FC;  
+    left: 5px;
+    background-color: #F2F2F2;
+    border: 0px black solid;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.search-button span{
+    opacity: 1;
+}
+.search-button i{
+    opacity: 0;
+}
+   .filter-container{
+       display: flex;
+       justify-content: space-between;
+       width: 80%;
+       margin-top: 30px;
    }
-   #filtres h4{
-       text-align: center;
-       position: relative;
+   .filter-container h2{
+       position:relative;
        bottom: 10px;
    }
+   .filter-button i{
+       color: #0065FC;
+       border: 0px black solid;
+       border-radius: 50%;
+       background-color: #DEEBFF ;
+       width: 45px;
+       height: 45px;
+       font-size: 20px;
+   }
+   .filter-button button{
+       border: 1px rgb(214, 210, 210) solid; 
+       border-radius: 20px;
+       width:160px ;
+       height:45px ; 
+       background-color: white;
+       font-weight: bolder;
+       text-transform: capitalize; 
+       overflow: hidden;   
+   }
+   .filter-button button:hover{
+       background-color: #0065FC;
+       color: white;
+       font-style: italic;
+       
+   }
+   #dog button{
+       width: 200px;
+   }
+   .fa-money-bill-wave{
+      position: relative;
+      right: 20px;
+      bottom: 3px;
+      padding: 10px; 
+   }
+   .fa-child{
+      position: relative;
+      right: 35px;
+      bottom: 3px;
+      padding: 10px; 
+   }
+   .fa-heart{
+       position: relative;
+       right: 20px;
+       bottom: 3px;
+       padding: 10px; 
+   }
+   .fa-dog{
+       position: relative;
+       right: 20px;
+       bottom: 3px;
+       padding: 10px;
+   }
+   .filter-text{
+       display:flex;
+   }
+   .fa-info{
+       color: #0065FC;
+       border: 1px rgb(212, 211, 211) solid;
+       border-radius: 30px;
+       width:25px;
+       height: 25px;
+       position: relative;
+       top:10px;
+       text-align: center;
+   }
+   .filter-text p{
+       position: relative;
+       left: 20px;
+   }
+   
+
 
      /*section1*/
 
-    .menu1{
+    #menu1{
          display:flex;
      }
      .bestAccommodation{
@@ -282,28 +183,28 @@ img{
         background-color:  #F2F2F2;
         border: 0px black solid;
         border-radius: 10px;
+        width: 32%;
     }
     
     
     .accommodation{
         display: flex;
-         flex-direction: row; 
          flex-wrap: wrap;
          justify-content: space-between;
     }
 
     .hebergement img{
-        width: 250px;
+        width: 210px;
         height:130px;
         margin: 10px;
     }
    
     .mostPopular img{
-        width: 130px;
-        height:110px;
+        width: 170px;
+        height:130px;
         overflow: hidden;
-        margin:10px 5px;
-        padding-bottom: 10px;   
+        margin: 10px;
+           
     }
     .hebergement{
         background-color: white;
@@ -313,22 +214,23 @@ img{
     }
     .mostPopular{
         display: flex;
-        flex-direction: row; 
         flex-wrap: wrap;
         justify-content: space-between;
         background-color: white;
         border: 0px black solid;
         border-radius: 15px;
-        margin: 10px;
+        margin: 20px;
     }
     .bold{
         font-weight: bolder;
+        font-size: 15px;
     }
     article{
-        width:70%;
+        width:60%;
         overflow:auto;
         display:inline-block;
     }
+    
     h2{
         margin: 20px;
     }
@@ -340,48 +242,58 @@ img{
     }
     .mostPopular span{
         display: block;
-        width: 150px;
-        margin: 5px 10px;
-    }
-    /*stars*/
-    .stars {
-        display: inline;
-        width:15px;
-        height: 15px;
-        margin: 0px;
-        margin-left: 7px;
-        justify-content: space-around;
-    }
-   
-    .stars .gold{
-        color: #0065FC;
-    }
-    .stars #emptyStar{
-        color: #c0bfbf;
+        width: 120px;
+        font-size: 12px;
+        margin: 10px auto;
+        position: relative;
+        right: 30px;
+        
     }
     .align{
         display: flex;
         justify-content: space-between;
     }
-    .charts{
-
-        font-size: 24px;
+    .fa-line-chart{
+        font-size: 30px;
         margin: 20px;
     }
 
+    /*stars*/
+    .stars .gold{
+        color: #0065FC;
+    }
+    
+    .stars .grey
+    {
+        color: #d8d3d3;
+    }
+    .stars {
+        display: inline;
+        width:10px;
+        height: 10px;
+        margin-left: 15px;
+    }
+    .discription .stars{
+        position: relative;
+        top:40px;
+        right: 50px;
+    }
+   
           /*section2*/
-    .menu2{
+    .menu{
             display: flex;
             position: relative;
             top:25px;
+            padding: 10px;
             
-          }
-    .menu2 span{
+    }
+    .menu span{
         font-weight: bold;
         text-transform:capitalize;
         position: relative;
         left: 20px;
-          }
+        padding: 10px;
+    }
         
     .harbor img{
         height:330px;
@@ -392,9 +304,9 @@ img{
     .harbor{
         border: 0px black solid;
         border-radius: 15px;
-        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+        box-shadow:       0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         overflow: hidden;
         position: relative;
         bottom: 30px;
@@ -409,9 +321,9 @@ img{
     .pomégues{
         border: 0px black solid;
         border-radius: 10px;
-        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+        box-shadow:        0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         overflow: hidden; 
         position: relative;
         bottom: 30px;
@@ -426,9 +338,9 @@ img{
     .frioul{
         border: 0px black solid;
         border-radius: 15px;
-        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+        box-shadow:        0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         overflow: hidden; 
         position: relative;
         left: 60px;
@@ -441,9 +353,9 @@ img{
     .parc{
         border: 0px black solid;
         border-radius: 15px;
-        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+        box-shadow:       0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         overflow: hidden; 
         position: relative;
         bottom: 30px;
@@ -458,9 +370,9 @@ img{
     .florian{
         border: 0px black solid;
         border-radius: 15px;
-        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+        box-shadow:        0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         overflow: hidden; 
         position: relative;
         bottom: 30px;  
@@ -475,9 +387,9 @@ img{
     .parcLongchamp{
         border: 0px black solid;
         border-radius: 15px;
-        -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        -moz-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+        -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+        box-shadow:       0px 4px 5px 0px rgba(0, 0, 0, 0.46);
         overflow: hidden;   
         position: relative;
         left: 140px;
@@ -489,27 +401,17 @@ img{
              /*footer*/
      footer{
         background-color: #F2F2F2;
-        margin: auto;
-        webkit-box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.8);
-        moz-box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.8);
-        box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.8);
-        position: relative;
-        top: 50px;
+        margin: 25px 5px;
     }
-    .footer ul{
-        padding: auto;
-    }
-    .footer ul li{
+    
+    #footer ul li{
         list-style-type: none;
         padding: 5px;
         padding-bottom: 6px;
     }
-  .footer{
-        display: inline-block;
-        margin: auto 70px;
-
+  #footer{
+        display:flex;
+        justify-content: space-around;
   }
 
-  .footer a:hover{
-         color: rgb(12, 89, 233);
-  }
+  
