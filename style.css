@@ -85,114 +85,114 @@ a{
 .search-button i{
     opacity: 0;
 }
-   .filter-container{
-       display: flex;
-       justify-content: space-between;
-       width: 80%;
-       margin-top: 30px;
-   }
-   .filter-container h2{
-       position:relative;
-       bottom: 10px;
-   }
-   .filter-button i{
-       color: #0065FC;
-       border: 0px black solid;
-       border-radius: 50%;
-       background-color: #DEEBFF ;
-       width: 45px;
-       height: 45px;
-       font-size: 20px;
-   }
-   .filter-button button{
-       border: 1px rgb(214, 210, 210) solid; 
-       border-radius: 20px;
-       width:160px ;
-       height:45px ; 
-       background-color: white;
-       font-weight: bolder;
-       text-transform: capitalize; 
-       overflow: hidden;   
-   }
-   .filter-button button:hover{
-       background-color: #0065FC;
-       color: white;
-       font-style: italic;
+.filter-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 30px;
+}
+.filter-container h2{
+    position:relative;
+    bottom: 10px;
+}
+.filter-button i{
+    color: #0065FC;
+    border: 0px black solid;
+    border-radius: 50%;
+    background-color: #DEEBFF ;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+}
+.filter-button button{
+    border: 1px rgb(214, 210, 210) solid; 
+    border-radius: 20px;
+    width:160px ;
+    height:45px ; 
+    background-color: white;
+    font-weight: bolder;
+    text-transform: capitalize; 
+    overflow: hidden;   
+}
+.filter-button button:hover{
+    background-color: #0065FC;
+    color: white;
+    font-style: italic;
        
-   }
-   #dog button{
-       width: 200px;
-   }
-   .fa-money-bill-wave{
-      position: relative;
-      right: 20px;
-      bottom: 3px;
-      padding: 10px; 
-   }
-   .fa-child{
-      position: relative;
-      right: 35px;
-      bottom: 3px;
-      padding: 10px; 
-   }
-   .fa-heart{
-       position: relative;
-       right: 20px;
-       bottom: 3px;
-       padding: 10px; 
-   }
-   .fa-dog{
-       position: relative;
-       right: 20px;
-       bottom: 3px;
-       padding: 10px;
-   }
-   .filter-text{
-       display:flex;
-   }
-   .fa-info{
-       color: #0065FC;
-       border: 1px rgb(212, 211, 211) solid;
-       border-radius: 30px;
-       width:25px;
-       height: 25px;
-       position: relative;
-       top:10px;
-       text-align: center;
-   }
-   .filter-text p{
-       position: relative;
-       left: 20px;
-   }
+}
+#dog button{
+    width: 200px;
+}
+.fa-money-bill-wave{
+    position: relative;
+    right: 20px;
+    bottom: 3px;
+    padding: 10px; 
+}
+.fa-child{
+    position: relative;
+    right: 35px;
+    bottom: 3px;
+    padding: 10px; 
+}
+.fa-heart{
+    position: relative;
+    right: 20px;
+    bottom: 3px;
+    padding: 10px; 
+}
+.fa-dog{
+    position: relative;
+    right: 20px;
+    bottom: 3px;
+    padding: 10px;
+}
+.filter-text{
+    display:flex;
+}
+.fa-info{
+    color: #0065FC;
+    border: 1px rgb(212, 211, 211) solid;
+    border-radius: 30px;
+    width:25px;
+    height: 25px;
+    position: relative;
+    top:10px;
+    text-align: center;
+}
+.filter-text p{
+    position: relative;
+    left: 20px;
+}
    
 
 
      /*section1*/
 
-    #menu1{
-         display:flex;
-     }
-     .bestAccommodation{
-        display: inline-block;
-        margin: 10px;
-        background-color:  #F2F2F2;
-        border: 0px black solid;
-        border-radius: 10px;
-    }
-    .popular{
-        margin: 10px;
-        background-color:  #F2F2F2;
-        border: 0px black solid;
-        border-radius: 10px;
-        width: 32%;
-    }
+#menu1{
+    display:flex;
+}
+.bestAccommodation{
+    display: inline-block;
+    margin: 10px;
+    background-color:  #F2F2F2;
+    border: 0px black solid;
+    border-radius: 10px;
+}
+.popular{
+    margin: 10px;
+    background-color:  #F2F2F2;
+    border: 0px black solid;
+    border-radius: 10px;
+    width: 32%;
+}
     
     
-    .accommodation{
-        display: flex;
-         flex-wrap: wrap;
-         justify-content: space-between;
-    }
+.accommodation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
     .hebergement img{
         width: 210px;

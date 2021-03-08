@@ -41,3 +41,50 @@ body{
 .information input{
     width: 280px;
 }
+.filter-container h2{
+
+}
+.filter-container h2{
+    position: relative;
+    right: 30px;
+}
+.filter-container .filter-button:nth-child(2){
+    position: relative;
+    right: 20px;
+}
+.filter-container .filter-button:nth-child(3){
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+}
+.filter-container .filter-button:nth-child(4){
+    position: relative;
+    right: 20px;
+    bottom: 25px;
+}
+.filter-container .filter-button:nth-child(5){
+    position: relative;
+    right: 20px;
+}
+
+.filter-container{
+    flex-direction: column;
+    padding: 40px ;
+}
+
+
+/*section*/
+#menu1{
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+article{
+    
+    overflow:hidden;
+    flex-direction: column;
+}
+aside{
+    width: 300px;
+    overflow:hidden;
+    flex-direction: column;  
+}
