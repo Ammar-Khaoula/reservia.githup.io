@@ -74,17 +74,85 @@ body{
 
 
 /*section*/
+article{
+    width: 90%;
+    padding: 10px 30px;
+}
+.popular{
+    width: 90%;
+    
+}
 #menu1{
     flex-direction: column-reverse;
-    justify-content: center;
 }
-article{
-    
-    overflow:hidden;
+.hebergement img{
+    width: 350px;
+    overflow: hidden;
+    margin: auto;
+}
+article h2{
+    font-size: 22px;
+}
+
+/*Section2*/
+.menu{
+   flex-direction: column;  
+   position: inherit;        
+} 
+   
+
+.harbor img{
+    height:150px;
+    width:100%;
+}
+.harbor{
+    position: inherit;
+}
+
+.pomégues img{
+    height:150px;
+    width:100%;
+}
+.pomégues{ 
+    position: inherit;
+    margin: 20px auto;
+}
+.frioul img{
+    height:150px;
+    width:100%;
+}
+.frioul{
+    position: inherit;
+    margin: 10px auto;
+}
+
+.parc img{
+    height:150px;
+    width: 560px;;
+}
+.parc{
+    position: inherit;
+    margin: 10px auto;
+}
+.florian img{
+    height:150px;
+    width:100%;
+}
+.florian{
+    position: inherit;
+    margin: 10px auto;
+}
+.parcLongchamp img{
+    height:150px;
+    width:100%;
+}
+.parcLongchamp{
+    position: inherit; 
+    margin: 20px auto;  
+}  
+
+/*footer*/
+#footer{
     flex-direction: column;
-}
-aside{
-    width: 300px;
-    overflow:hidden;
-    flex-direction: column;  
+    
 }

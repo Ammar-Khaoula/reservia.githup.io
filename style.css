@@ -186,78 +186,77 @@ a{
     border-radius: 10px;
     width: 32%;
 }
-    
-    
+       
 .accommodation{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-    .hebergement img{
-        width: 210px;
-        height:130px;
-        margin: 10px;
-    }
+.hebergement img{
+    width: 210px;
+    height:130px;
+    margin: 10px;
+}
    
-    .mostPopular img{
-        width: 170px;
-        height:130px;
-        overflow: hidden;
-        margin: 10px;
+.mostPopular img{
+    width: 170px;
+    height:130px;
+    overflow: hidden;
+    margin: 10px;
            
-    }
-    .hebergement{
-        background-color: white;
-        border: 0px black solid;
-        margin: 5px;
-        border-radius: 15px;
-    }
-    .mostPopular{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        background-color: white;
-        border: 0px black solid;
-        border-radius: 15px;
-        margin: 20px;
-    }
-    .bold{
-        font-weight: bolder;
-        font-size: 15px;
-    }
-    article{
-        width:60%;
-        overflow:auto;
-        display:inline-block;
-    }
+}
+.hebergement{
+    background-color: white;
+    border: 0px black solid;
+    margin: 5px;
+    border-radius: 15px;
+}
+.mostPopular{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    border: 0px black solid;
+    border-radius: 15px;
+    margin: 20px;
+}
+.bold{
+    font-weight: bolder;
+    font-size: 15px;
+}
+article{
+    width:60%;
+    overflow:auto;
+    display:inline-block;
+}
     
-    h2{
-        margin: 20px;
-    }
-    .accommodation span{
-        display: block; 
-        margin-left: 15px;
-        margin-top: 7px;
-        margin-bottom: 7px;
-    }
-    .mostPopular span{
-        display: block;
-        width: 120px;
-        font-size: 12px;
-        margin: 10px auto;
-        position: relative;
-        right: 30px;
+h2{
+    margin: 20px;
+}
+.accommodation span{
+    display: block; 
+    margin-left: 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.mostPopular span{
+    display: block;
+    width: 120px;
+    font-size: 12px;
+    margin: 10px auto;
+    position: relative;
+    right: 30px;
         
-    }
-    .align{
-        display: flex;
-        justify-content: space-between;
-    }
-    .fa-line-chart{
-        font-size: 30px;
-        margin: 20px;
-    }
+}
+.align{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-line-chart{
+    font-size: 30px;
+    margin: 20px;
+}
 
     /*stars*/
     .stars .gold{
@@ -281,110 +280,108 @@ a{
     }
    
           /*section2*/
-    .menu{
-            display: flex;
-            position: relative;
-            top:25px;
-            padding: 10px;
+.menu{
+    display: flex;
+    position: relative;
+    top:25px;
+    padding: 10px;
             
-    }
-    .menu span{
-        font-weight: bold;
-        text-transform:capitalize;
-        position: relative;
-        left: 20px;
-        padding: 10px;
-    }
+}
+.menu span{
+    font-weight: bold;
+    text-transform:capitalize;
+    position: relative;
+    left: 20px;
+    padding: 10px;
+}
         
-    .harbor img{
-        height:330px;
-        width:260px;
-        position: relative;
-
-          }
-    .harbor{
-        border: 0px black solid;
-        border-radius: 15px;
-        -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-        -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-        box-shadow:       0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        overflow: hidden;
-        position: relative;
-        bottom: 30px;
-        left: 20px;
-   }
-    .pomégues img{
-        height:130px;
-        width:260px;
-        position: relative;
-        bottom: 10px;
-   }
-    .pomégues{
-        border: 0px black solid;
-        border-radius: 10px;
-        -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-        -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-        box-shadow:        0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        overflow: hidden; 
-        position: relative;
-        bottom: 30px;
-        left: 60px;
-    }
-    .frioul img{
-        height:130px;
-        width:260px;
-        position: relative;
-        bottom: 10px;
-    }
-    .frioul{
-        border: 0px black solid;
-        border-radius: 15px;
-        -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-        -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-        box-shadow:        0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        overflow: hidden; 
-        position: relative;
-        left: 60px;
-        top: 5px; 
-   }
-    .parc img{
-        height:330px;
-        width:260px;
+.harbor img{
+    height:330px;
+    width:260px;
+}
+.harbor{
+    border: 0px black solid;
+    border-radius: 15px;
+    -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    box-shadow:       0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+    overflow: hidden;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+}
+.pomégues img{
+    height:130px;
+    width:260px;
+    position: relative;
+    bottom: 10px;
+}
+.pomégues{
+    border: 0px black solid;
+    border-radius: 10px;
+    -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    box-shadow:        0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+    overflow: hidden; 
+    position: relative;
+    bottom: 30px;
+    left: 60px;
+}
+.frioul img{
+    height:130px;
+    width:260px;
+    position: relative;
+    bottom: 10px;
+}
+.frioul{
+    border: 0px black solid;
+    border-radius: 15px;
+    -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    box-shadow:        0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+    overflow: hidden; 
+    position: relative;
+    left: 60px;
+    top: 5px; 
+}
+.parc img{
+    height:330px;
+    width:260px;
+}
+.parc{
+    border: 0px black solid;
+    border-radius: 15px;
+    -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    box-shadow:       0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+    overflow: hidden; 
+    position: relative;
+    bottom: 30px;
+    left:100px ; 
   }
-    .parc{
-        border: 0px black solid;
-        border-radius: 15px;
-        -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-        -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-        box-shadow:       0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        overflow: hidden; 
-        position: relative;
-        bottom: 30px;
-        left:100px ; 
-  }
-    .florian img{
-        height:130px;
-        width:260px;
-        position: relative;
-        bottom: 10px;
-  }
-    .florian{
-        border: 0px black solid;
-        border-radius: 15px;
-        -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-        -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-        box-shadow:        0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        overflow: hidden; 
-        position: relative;
-        bottom: 30px;  
-        left: 140px;
-  }
-    .parcLongchamp img{
-        height:130px;
-        width:260px;
-        position: relative;
-        bottom: 10px;
-  }
+.florian img{
+    height:130px;
+    width:260px;
+    position: relative;
+    bottom: 10px;
+}
+.florian{
+    border: 0px black solid;
+    border-radius: 15px;
+    -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    box-shadow:        0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+    overflow: hidden; 
+    position: relative;
+    bottom: 30px;  
+    left: 140px;
+}
+.parcLongchamp img{
+    height:130px;
+    width:260px;
+    position: relative;
+    bottom: 10px;
+}
     .parcLongchamp{
         border: 0px black solid;
         border-radius: 15px;
