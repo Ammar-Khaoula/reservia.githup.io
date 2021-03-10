@@ -42,9 +42,6 @@ body{
     width: 280px;
 }
 .filter-container h2{
-
-}
-.filter-container h2{
     position: relative;
     right: 30px;
 }
@@ -88,7 +85,7 @@ article{
 .hebergement img{
     width: 350px;
     overflow: hidden;
-    margin: auto;
+    margin: 5px;
 }
 article h2{
     font-size: 22px;
@@ -102,7 +99,7 @@ article h2{
    
 
 .harbor img{
-    height:150px;
+    height:200px;
     width:100%;
 }
 .harbor{
@@ -110,7 +107,7 @@ article h2{
 }
 
 .pomégues img{
-    height:150px;
+    height:200px;
     width:100%;
 }
 .pomégues{ 
@@ -118,7 +115,7 @@ article h2{
     margin: 20px auto;
 }
 .frioul img{
-    height:150px;
+    height:200px;
     width:100%;
 }
 .frioul{
@@ -127,7 +124,7 @@ article h2{
 }
 
 .parc img{
-    height:150px;
+    height:200px;
     width: 560px;;
 }
 .parc{
@@ -135,7 +132,7 @@ article h2{
     margin: 10px auto;
 }
 .florian img{
-    height:150px;
+    height:200px;
     width:100%;
 }
 .florian{
@@ -143,7 +140,7 @@ article h2{
     margin: 10px auto;
 }
 .parcLongchamp img{
-    height:150px;
+    height:200px;
     width:100%;
 }
 .parcLongchamp{

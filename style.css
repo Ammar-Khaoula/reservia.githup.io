@@ -85,6 +85,7 @@ a{
 .search-button i{
     opacity: 0;
 }
+/*filtres*/
 .filter-container{
     display: flex;
     justify-content: space-between;
@@ -102,7 +103,7 @@ a{
     background-color: #DEEBFF ;
     width: 45px;
     height: 45px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .filter-button button{
     border: 1px rgb(214, 210, 210) solid; 
@@ -115,10 +116,9 @@ a{
     overflow: hidden;   
 }
 .filter-button button:hover{
-    background-color: #0065FC;
+    background:linear-gradient(0.25turn,#DEEBFF,#0065FC);
     color: white;
     font-style: italic;
-       
 }
 #dog button{
     width: 200px;
@@ -127,19 +127,19 @@ a{
     position: relative;
     right: 20px;
     bottom: 3px;
-    padding: 10px; 
+    padding: 13px 10px; 
 }
 .fa-child{
     position: relative;
     right: 35px;
     bottom: 3px;
-    padding: 10px; 
+    padding: 13px 10px; 
 }
 .fa-heart{
     position: relative;
     right: 20px;
     bottom: 3px;
-    padding: 10px; 
+    padding: 15px 10px; 
 }
 .fa-dog{
     position: relative;
@@ -164,8 +164,14 @@ a{
     position: relative;
     left: 20px;
 }
-   
-
+.filter-button span{
+    position: relative;
+    bottom: 5px;
+}
+#dog span{
+    position: relative;
+    top: 3px;
+}
 
      /*section1*/
 
@@ -203,8 +209,7 @@ a{
     width: 170px;
     height:130px;
     overflow: hidden;
-    margin: 10px;
-           
+    margin: 10px;           
 }
 .hebergement{
     background-color: white;
@@ -223,7 +228,7 @@ a{
 }
 .bold{
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 16px;
 }
 article{
     width:60%;
@@ -259,33 +264,31 @@ h2{
 }
 
     /*stars*/
-    .stars .gold{
-        color: #0065FC;
-    }
+.stars .gold{
+    color: #0065FC;
+}
     
-    .stars .grey
-    {
-        color: #d8d3d3;
-    }
-    .stars {
-        display: inline;
-        width:10px;
-        height: 10px;
-        margin-left: 15px;
-    }
-    .discription .stars{
-        position: relative;
-        top:40px;
-        right: 50px;
-    }
+.stars .grey{
+    color: #d8d3d3;
+}
+.stars {
+    display: inline;
+    width:10px;
+    height: 10px;
+    margin-left: 15px;
+}
+.discription .stars{
+    position: relative;
+    top:40px;
+    right: 50px;
+}
    
           /*section2*/
 .menu{
     display: flex;
     position: relative;
     top:25px;
-    padding: 10px;
-            
+    padding: 10px;         
 }
 .menu span{
     font-weight: bold;
@@ -382,34 +385,34 @@ h2{
     position: relative;
     bottom: 10px;
 }
-    .parcLongchamp{
-        border: 0px black solid;
-        border-radius: 15px;
-        -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-        -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-        box-shadow:       0px 4px 5px 0px rgba(0, 0, 0, 0.46);
-        overflow: hidden;   
-        position: relative;
-        left: 140px;
-        top: 5px;
-  }
-    h2{
-         text-transform: capitalize;
-  }
+.parcLongchamp{
+    border: 0px black solid;
+    border-radius: 15px;
+    -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    box-shadow:       0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+    overflow: hidden;   
+    position: relative;
+    left: 140px;
+    top: 5px;
+} 
+h2{
+    text-transform: capitalize;
+}
              /*footer*/
-     footer{
-        background-color: #F2F2F2;
-        margin: 25px 5px;
-    }
+footer{
+    background-color: #F2F2F2;
+    margin: 25px 5px;
+}
     
-    #footer ul li{
-        list-style-type: none;
-        padding: 5px;
-        padding-bottom: 6px;
-    }
-  #footer{
-        display:flex;
-        justify-content: space-around;
-  }
+#footer ul li{
+    list-style-type: none;
+    padding: 5px;
+    padding-bottom: 6px;
+}
+#footer{
+    display:flex;
+    justify-content: space-around;
+}
 
   
