@@ -55,35 +55,20 @@ body{
     top: 0.5px;
 }
     /*FILTRES*/
-.filter-container h2{
-
-}
-.filter-container h2{
-    position: relative;
-    right: 30px;
-}
-.filter-container .filter-button:nth-child(2){
-    position: relative;
-    right: 20px;
-}
 .filter-container .filter-button:nth-child(3){
+    width: 100px;
     position: relative;
-    left: 250px;
-    bottom: 50px;
-}
-.filter-container .filter-button:nth-child(4){
-    position: relative;
-    right: 20px;
-    bottom: 25px;
+    bottom: 45px;
+    left: 180px;
 }
 .filter-container .filter-button:nth-child(5){
-    position: relative;
-    right: 20px;
+    margin: 35px auto;
+    margin-left: 0px;
+    width: 100px;
 }
-
 .filter-container{
     flex-direction: column;
-    padding: 40px ;
+    width: 100%;
 }
 
 
