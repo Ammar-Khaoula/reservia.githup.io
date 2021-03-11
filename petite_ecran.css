@@ -70,7 +70,9 @@ body{
     flex-direction: column;
     width: 100%;
 }
-
+.filter-text p{
+font-size: 12px;
+}
 
 /*section*/
 article{
@@ -147,7 +149,8 @@ article h2{
 }
 .parc{
     position: inherit;
-    margin: 10px auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .florian img{
     height:150px;
