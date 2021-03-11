@@ -51,8 +51,8 @@ body{
     width: 45px;
     font-size: 20px;
     position: relative;
-    
     right: 15px;
+    top: 0.5px;
 }
     /*FILTRES*/
 .filter-container h2{
