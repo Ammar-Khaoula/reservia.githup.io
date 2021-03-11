@@ -197,6 +197,8 @@ a{
     width: 210px;
     height:130px;
     margin: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
    
 .mostPopular img{
@@ -204,6 +206,8 @@ a{
     height:130px;
     overflow: hidden;
     margin: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
            
 }
 .hebergement{
