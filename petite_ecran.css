@@ -1,5 +1,5 @@
 body{
-    margin: 20px;
+    margin: 5px;
 }
 /*header*/
 
@@ -8,11 +8,10 @@ body{
     flex-direction: column-reverse;
   }
 .toplink{
-    position: relative;
-    right: 300px;
-    bottom: 40px;
+    position:relative;
+    right: 150px;
+    bottom: 40px;   
 }
-
 .header a:hover{
     border-top: none;
     border-bottom: 1px solid blue;
@@ -20,7 +19,9 @@ body{
 }  
 
    /*nav*/
-   
+h1{
+    font-size: 15px;
+}   
 .information button{
     height:50px;
     width:50px;
@@ -35,60 +36,80 @@ body{
     opacity: 1;
 }
 .fa-search{
-    position: relative;
-    top: 7px;
+    margin-top: 13px;
+    font-size: 20px;
 }
 .information input{
-    width: 280px;
+    width: 190px;
+    height: 45px;
+    font-size: 13px;
 }
-.filter-container h2{
+.information button{
+    height: 45px;
+}
+.fa-map-marker{
+    height: 45px;
+    width: 45px;
+    font-size: 20px;
     position: relative;
-    right: 30px;
+    right: 15px;
+    top: 0.5px;
 }
-.filter-container .filter-button:nth-child(2){
-    position: relative;
-    right: 20px;
-}
+    /*FILTRES*/
 .filter-container .filter-button:nth-child(3){
+    width: 100px;
     position: relative;
-    left: 250px;
-    bottom: 50px;
-}
-.filter-container .filter-button:nth-child(4){
-    position: relative;
-    right: 20px;
-    bottom: 25px;
+    bottom: 45px;
+    left: 170px;
 }
 .filter-container .filter-button:nth-child(5){
-    position: relative;
-    right: 20px;
+    margin: 35px auto;
+    margin-left: 0px;
+    width: 100px;
 }
-
 .filter-container{
     flex-direction: column;
-    padding: 40px ;
+    width: 100%;
 }
-
+.filter-text p{
+font-size: 12px;
+}
 
 /*section*/
 article{
-    width: 90%;
-    padding: 10px 30px;
+    width: 100%;
+    padding: 20px;
 }
 .popular{
-    width: 90%;
-    
+    width: 100%;
+    margin: 5px; 
 }
+.mostPopular img{
+    margin: 5px;
+    height:100px ;
+    width:140px ;
+}
+.mostPopular span{
+    position: relative;
+    right: 15px;   
+}
+.discription .stars{
+    position: relative;
+    top:15px;
+    right:25px;
+}
+
 #menu1{
     flex-direction: column-reverse;
 }
 .hebergement img{
-    width: 350px;
+    width: 300px;
     overflow: hidden;
-    margin: 5px;
+    padding:5px auto;
+    margin: 2px;
 }
 article h2{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 /*Section2*/
@@ -124,12 +145,13 @@ article h2{
 }
 
 .parc img{
-    height:200px;
-    width: 560px;;
+    height:150px;
+    width: 100%;;
 }
 .parc{
     position: inherit;
-    margin: 10px auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .florian img{
     height:200px;
