@@ -89,20 +89,21 @@ body{
 
 /*section*/
 article{
-    width: 90%;
-    padding: 10px 30px;
+    width: 100%;
+    padding: 20px;
 }
 .popular{
-    width: 90%;
+    width: 100%;
     
 }
 #menu1{
     flex-direction: column-reverse;
 }
 .hebergement img{
-    width: 350px;
+    width: 300px;
     overflow: hidden;
-    margin: auto;
+    padding:5px auto;
+    margin: 2px;
 }
 article h2{
     font-size: 22px;
