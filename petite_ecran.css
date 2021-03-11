@@ -20,7 +20,9 @@ body{
 }  
 
    /*nav*/
-   
+h1{
+    font-size: 15px;
+}   
 .information button{
     height:50px;
     width:50px;
@@ -59,7 +61,7 @@ body{
     width: 100px;
     position: relative;
     bottom: 45px;
-    left: 180px;
+    left: 170px;
 }
 .filter-container .filter-button:nth-child(5){
     margin: 35px auto;
