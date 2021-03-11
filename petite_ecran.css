@@ -94,8 +94,23 @@ article{
 }
 .popular{
     width: 100%;
-    
+    margin: 5px; 
 }
+.mostPopular img{
+    margin: 5px;
+    height:100px ;
+    width:140px ;
+}
+.mostPopular span{
+    position: relative;
+    right: 15px;   
+}
+.discription .stars{
+    position: relative;
+    top:15px;
+    right:25px;
+}
+
 #menu1{
     flex-direction: column-reverse;
 }
@@ -106,7 +121,7 @@ article{
     margin: 2px;
 }
 article h2{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 /*Section2*/
@@ -143,7 +158,7 @@ article h2{
 
 .parc img{
     height:150px;
-    width: 560px;;
+    width: 100%;;
 }
 .parc{
     position: inherit;
