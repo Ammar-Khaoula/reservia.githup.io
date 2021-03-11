@@ -11,6 +11,7 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/613a25ab47.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="petite_ecran.css" media="all and (max-width:768px)">
+    <link rel="stylesheet" type="text/css" href="ecran_tablette.css" media="all and (min-width:769px) and (max-width:991px)">
 
 </head>
 
@@ -64,22 +65,22 @@
             <h2>Filtres</h2>
             <div class="filter-button">
                 <button> <i class="fas fa-money-bill-wave"></i>
-                    économique</button>
+                    <span>économique</span></button>
             </div>
 
             <div class="filter-button">
                 <button> <i class="fas fa-child"></i>
-                    familial</button>
+                    <span>familial</span></button>
             </div>
 
             <div class="filter-button">
                 <button> <i class="fas fa-heart"></i>
-                    romantique</button>
+                    <span>romantique</span></button>
             </div>
 
             <div class="filter-button" id="dog">
                 <button> <i class="fas fa-dog"></i>
-                    animaux autorisés</button>
+                    <span>animaux autorisés</span></button>
             </div>
         </div>
 
@@ -143,10 +144,10 @@
                             <i class="fa fa-star gold"></i>
                             <i class="fa fa-star gold"></i>
                             <i class="fa fa-star grey"></i>
-                        </div>
+                      </div>
                     </a>
                 </div>
-                <div class="hebergement">
+                <div class="hebergement" id="hotel">
                     <a href="#">
                         <img src="./images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                             alt="hebergement-photo4">
@@ -162,7 +163,7 @@
                         </div>
                     </a>
                 </div>
-                <a href="#hebergement"></a>
+            
                 <div class="hebergement">
 
                     <a href="#">
@@ -210,75 +211,77 @@
                 <h2><a href="#">les plus plopulaires</a></h2>
                 <i class="fa fa-line-chart"></i>
             </div>
+            <div class="populars">
 
-            <div class="mostPopular">
+                <div class="mostPopular">
 
-                <div class="picture">
-                    <a href="#">
-                        <img src="./images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                            alt="hebergement-photo7">
-                    </a>
-                </div>
-                <div class="discription">
-                    <a href="#">
-                        <div><span class="bold">Hôtel le soleil du matin</span></div>
-                        <div><span class="price">Nuit à partir de 128<b>€</b></span></div>
-                        <div class="stars">
-                            <i class="fa fa-star gold"></i>
-                            <i class="fa fa-star gold"></i>
-                            <i class="fa fa-star gold"></i>
-                            <i class="fa fa-star gold"></i>
-                            <i class="fa fa-star gold"></i>
-                        </div>
-                    </a>
-                </div>
+                    <div class="picture">
+                        <a href="#">
+                            <img src="./images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="hebergement-photo7">
+                        </a>
+                    </div>
+                    <div class="discription">
+                        <a href="#">
+                            <div><span class="bold">Hôtel le soleil du matin</span></div>
+                            <div><span class="price">Nuit à partir de 128<b>€</b></span></div>
+                            <div class="stars">
+                                <i class="fa fa-star gold"></i>
+                                <i class="fa fa-star gold"></i>
+                                <i class="fa fa-star gold"></i>
+                                <i class="fa fa-star gold"></i>
+                                <i class="fa fa-star gold"></i>
+                            </div>
+                        </a>
+                    </div>
 
-            </div>
-
-            <div class="mostPopular">
-                <div class="picture">
-                    <a href="#">
-                        <img src="./images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                            alt="hebergement-photo8">
-                    </a>
-                </div>
-                <div class="discription">
-                    <a href="#">
-                        <div><span class="bold">Au coeur de l'eau chambre d'hôtels</span></div>
-                        <div><span class="price">Nuit à partir de 71<b>€</b></span></div>
-                        <div class="stars">
-                            <i class="fa fa-star gold"></i>
-                            <i class="fa fa-star gold"></i>
-                            <i class="fa fa-star gold"></i>
-                            <i class="fa fa-star gold"></i>
-                            <i class="fa fa-star  grey"></i>
-                        </div>
-                    </a>
                 </div>
 
-            </div>
+                <div class="mostPopular">
+                    <div class="picture">
+                        <a href="#">
+                            <img src="./images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                                alt="hebergement-photo8">
+                        </a>
+                    </div>
+                    <div class="discription">
+                        <a href="#">
+                            <div><span class="bold">Au coeur de l'eau chambre d'hôtels</span></div>
+                            <div><span class="price">Nuit à partir de 71<b>€</b></span></div>
+                            <div class="stars">
+                                <i class="fa fa-star gold"></i>
+                                <i class="fa fa-star gold"></i>
+                                <i class="fa fa-star gold"></i>
+                                <i class="fa fa-star gold"></i>
+                                <i class="fa fa-star  grey"></i>
+                            </div>
+                        </a>
+                    </div>
 
-            <div class="mostPopular">
-                <div class="picture">
-                    <a href="#">
-                        <img src="./images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                            alt="hebergement-photo9">
-                    </a>
-                </div>
-                <div class="discription">
-                    <a href="#">
-                        <div><span class="bold">Hôtel tout bleu et blanc</span></div>
-                        <div><span class="price">Nuit à partir de 68<b>€</b></span></div>
-                        <div class="stars">
-                            <i class="fa fa-star gold"></i>
-                            <i class="fa fa-star gold"></i>
-                            <i class="fa fa-star gold"></i>
-                            <i class="fa fa-star gold"></i>
-                            <i class="fa fa-star grey"></i>
-                        </div>
-                    </a>
                 </div>
 
+                <div class="mostPopular">
+                    <div class="picture">
+                        <a href="#">
+                            <img src="./images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                                alt="hebergement-photo9">
+                        </a>
+                    </div>
+                    <div class="discription">
+                        <a href="#">
+                            <div><span class="bold">Hôtel tout bleu et blanc</span></div>
+                            <div><span class="price">Nuit à partir de 68<b>€</b></span></div>
+                            <div class="stars">
+                                <i class="fa fa-star gold"></i>
+                                <i class="fa fa-star gold"></i>
+                                <i class="fa fa-star gold"></i>
+                                <i class="fa fa-star gold"></i>
+                                <i class="fa fa-star grey"></i>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
             </div>
 
         </aside>
@@ -326,7 +329,7 @@
                 </a>
             </div>
 
-            <div>
+            <div class="activity">
                 <div class="florian">
                     <a href="#">
                         <img src="./images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg"
