@@ -1,0 +1,155 @@
+body{
+    margin: 20px;
+}
+/*header*/
+
+.links {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+.toplink{
+    position: relative;
+    right: 300px;
+    bottom: 40px;
+}
+
+.header a:hover{
+    border-top: none;
+    border-bottom: 1px solid blue;
+    padding-bottom: 5px;
+}  
+
+   /*nav*/
+   
+.information button{
+    height:50px;
+    width:50px;
+    border-radius:15px;
+    position: relative;
+    right: 20px;
+} 
+.search-button span{
+    opacity: 0;
+}
+.search-button i{
+    opacity: 1;
+}
+.fa-search{
+    position: relative;
+    top: 7px;
+}
+.information input{
+    width: 280px;
+}
+.filter-container h2{
+    position: relative;
+    right: 30px;
+}
+.filter-container .filter-button:nth-child(2){
+    position: relative;
+    right: 20px;
+}
+.filter-container .filter-button:nth-child(3){
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+}
+.filter-container .filter-button:nth-child(4){
+    position: relative;
+    right: 20px;
+    bottom: 25px;
+}
+.filter-container .filter-button:nth-child(5){
+    position: relative;
+    right: 20px;
+}
+
+.filter-container{
+    flex-direction: column;
+    padding: 40px ;
+}
+
+
+/*section*/
+article{
+    width: 90%;
+    padding: 10px 30px;
+}
+.popular{
+    width: 90%;
+    
+}
+#menu1{
+    flex-direction: column-reverse;
+}
+.hebergement img{
+    width: 350px;
+    overflow: hidden;
+    margin: 5px;
+}
+article h2{
+    font-size: 22px;
+}
+
+/*Section2*/
+.menu{
+   flex-direction: column;  
+   position: inherit;        
+} 
+   
+
+.harbor img{
+    height:200px;
+    width:100%;
+}
+.harbor{
+    position: inherit;
+}
+
+.pomégues img{
+    height:200px;
+    width:100%;
+}
+.pomégues{ 
+    position: inherit;
+    margin: 20px auto;
+}
+.frioul img{
+    height:200px;
+    width:100%;
+}
+.frioul{
+    position: inherit;
+    margin: 10px auto;
+}
+
+.parc img{
+    height:200px;
+    width: 560px;;
+}
+.parc{
+    position: inherit;
+    margin: 10px auto;
+}
+.florian img{
+    height:200px;
+    width:100%;
+}
+.florian{
+    position: inherit;
+    margin: 10px auto;
+}
+.parcLongchamp img{
+    height:200px;
+    width:100%;
+}
+.parcLongchamp{
+    position: inherit; 
+    margin: 20px auto;  
+}  
+
+/*footer*/
+#footer{
+    flex-direction: column;
+    
+}

@@ -1,0 +1,201 @@
+body{
+    margin: 20px;
+}
+
+.header a:hover{
+    border-top: none;
+    border-bottom: 1px solid blue;
+    padding-bottom: 5px;
+}  
+
+   /*nav*/
+   
+.information button{
+    height:50px;
+    width:50px;
+    border-radius:15px;
+    position: relative;
+    right: 20px;
+} 
+.search-button span{
+    opacity: 0;
+}
+.search-button i{
+    opacity: 1;
+}
+.fa-search{
+    position: relative;
+    top: 7px;
+}
+.information input{
+    width: 300px;
+}
+
+/*Filtres*/
+.filter-container h2{
+    position: relative;
+    right: 30px;
+}
+.filter-container .filter-button:nth-child(2){
+    position: relative;
+    top: 10px;
+}
+.filter-container .filter-button:nth-child(3){
+    position: relative;
+    left: 450px;
+    bottom: 35px;
+}
+.filter-container .filter-button:nth-child(4){
+    position: relative;
+    top: 20px;
+}
+.filter-container .filter-button:nth-child(5){
+    position: relative;
+    left: 450px;
+    bottom: 30px;
+}
+
+.filter-container{
+    flex-direction: column;
+    padding: 40px ;
+}
+.filter-button button{
+    width: 200px;
+}
+.fa-money-bill-wave{
+    position: relative;
+    right: 40px; 
+}
+.fa-child{
+    position: relative;
+    right: 55px;
+}
+.fa-heart{
+    position: relative;
+    right: 40px; 
+}
+.filter-button button:hover{
+    background:linear-gradient(0.25turn,#DEEBFF,#0065FC);
+}
+
+
+/*section*/
+article{
+    width: 90%;
+    padding: 10px 20px;
+}
+.popular{
+    width: 90%;   
+}
+#menu1{
+    flex-direction: column-reverse;
+}
+
+article h2{
+    font-size: 22px;
+}
+.hebergement img{
+    width: 250px;
+}
+#hotel{
+    margin-left: 30px;
+}
+.populars{
+    display: flex;
+    flex-direction: row;
+}
+.mostPopular{
+    margin: 10px;
+}
+.mostPopular img{
+    margin: 15px;
+}
+.mostPopular span{
+    position: inherit;
+    margin: 5px 20px;
+}
+.discription .stars{
+    position: inherit;
+}
+
+/*Section2*/
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: inherit;
+    padding-top: 35px;          
+}
+
+.harbor img{
+    height:330px;
+    width:300px ;
+}
+.harbor{
+    position: inherit;
+    margin-bottom: 60px;
+}
+.pomégues img{
+    height:160px;
+    width:300px;
+    position: inherit;
+}
+.pomégues{
+     
+    position: inherit;
+    margin-right: 60px;
+    margin-left: 40px;
+
+}
+.frioul img{
+    height:160px;
+    width:300px;
+    position: inherit;
+}
+.frioul{
+    position: inherit;
+    margin: 30px;
+    margin-left: 40px;
+    margin-right: 60px;
+
+}
+.parc img{
+    height:330px;
+    width:300px ;
+    
+}
+.parc{
+    margin:35px;
+    position:static; 
+    margin: 30px;
+}
+.florian img{
+    height:160px;
+    width:300px;
+    position: inherit;
+    
+}
+.florian{
+    position: inherit;
+    margin: 30px;
+    
+}
+.parcLongchamp img{
+    height:160px;
+    width:300px;
+    position: inherit;
+    
+}
+.parcLongchamp{   
+    position: inherit;
+    margin: 30px;
+} 
+
+/*footer*/
+#footer{
+    flex-direction: column;   
+}
+#footer a:hover{
+     color: blue;
+}
