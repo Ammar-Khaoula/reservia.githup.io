@@ -1,5 +1,5 @@
-body{
-    margin: 5px;
+body{  
+  margin: auto 5px;
 }
 /*header*/
 
@@ -82,8 +82,9 @@ article{
 }
 .popular{
     width: 100%;
-    margin: 5px; 
+    margin:auto  
 }
+
 .mostPopular img{
     margin: 5px;
     height:100px ;
@@ -102,11 +103,12 @@ article{
 #menu1{
     flex-direction: column-reverse;
 }
+.accommodation{
+    margin: auto;
+}
 .hebergement img{
     width: 300px;
-    overflow: hidden;
-    padding:5px auto;
-    margin: 2px;
+    margin: 5px;
 }
 article h2{
     font-size: 20px;
