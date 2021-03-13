@@ -9,7 +9,7 @@ body{
   }
 .toplink{
     position:relative;
-    right: 150px;
+    right: 180px;
     bottom: 40px;   
 }
 .header a:hover{
@@ -61,6 +61,9 @@ h1{
     position: relative;
     bottom: 45px;
     left: 170px;
+}
+.filter-container .filter-button:nth-child(5){
+    margin-bottom: 25px;
 }
 .filter-container .filter-button:nth-child(5){
     margin: 35px auto;
