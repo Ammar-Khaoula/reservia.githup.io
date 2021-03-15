@@ -11,14 +11,14 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.header img{
+header img{
     width: 100px;
     margin-top: 10px;
 } 
 .links{
     display: flex; 
 }       
-.header ul li{    
+header ul li{    
     list-style-type: none;   
     margin: 10px 30px;  
 }
@@ -28,7 +28,7 @@ a{
     color: rgb(37, 37, 37);
 }
     
-.header a:hover{
+header a:hover{
     color: blue;
     border-top: 1px solid blue;
     padding-top: 20px;
