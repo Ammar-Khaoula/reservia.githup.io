@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
 }
@@ -406,6 +407,55 @@ footer{
     display:flex;
     justify-content: space-around;
 }
-
-
-  
+.florian img{
+    height:130px;
+    width:260px;
+    position: relative;
+    bottom: 10px;
+}
+.florian{
+    border: 0px black solid;
+    border-radius: 15px;
+    -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    box-shadow:        0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+    overflow: hidden; 
+    position: relative;
+    bottom: 30px;  
+    left: 140px;
+}
+.parcLongchamp img{
+    height:130px;
+    width:260px;
+    position: relative;
+    bottom: 10px;
+}
+.parcLongchamp{
+    border: 0px black solid;
+    border-radius: 15px;
+    -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
+    box-shadow:       0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+    overflow: hidden;   
+    position: relative;
+    left: 140px;
+    top: 5px;
+} 
+h2{
+    text-transform: capitalize;
+}
+             /*footer*/
+footer{
+    background-color: #F2F2F2;
+    margin: 25px 5px;
+}
+    
+#footer ul li{
+    list-style-type: none;
+    padding: 5px;
+    padding-bottom: 6px;
+}
+#footer{
+    display:flex;
+    justify-content: space-around;
+}  
