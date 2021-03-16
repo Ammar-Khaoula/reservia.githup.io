@@ -309,25 +309,21 @@ h2{
 .harbor{
     border: 0px black solid;
     border-radius: 15px;
-    -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
     box-shadow:       0px 4px 5px 0px rgba(0, 0, 0, 0.46);
     overflow: hidden;
     position: relative;
     bottom: 30px;
     left: 20px;
 }
-.pomégues img{
+.pomegues img{
     height:130px;
     width:260px;
     position: relative;
     bottom: 10px;
 }
-.pomégues{
+.pomegues{
     border: 0px black solid;
     border-radius: 10px;
-    -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
     box-shadow:        0px 4px 5px 0px rgba(0, 0, 0, 0.46);
     overflow: hidden; 
     position: relative;
@@ -343,8 +339,6 @@ h2{
 .frioul{
     border: 0px black solid;
     border-radius: 15px;
-    -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
     box-shadow:        0px 4px 5px 0px rgba(0, 0, 0, 0.46);
     overflow: hidden; 
     position: relative;
@@ -358,14 +352,11 @@ h2{
 .parc{
     border: 0px black solid;
     border-radius: 15px;
-    -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
     box-shadow:       0px 4px 5px 0px rgba(0, 0, 0, 0.46);
     overflow: hidden; 
     position: relative;
     bottom: 30px;
     left:100px ; 
->>>>>>> @media_tablette
   }
 .florian img{
     height:130px;
@@ -376,8 +367,6 @@ h2{
 .florian{
     border: 0px black solid;
     border-radius: 15px;
-    -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
     box-shadow:        0px 4px 5px 0px rgba(0, 0, 0, 0.46);
     overflow: hidden; 
     position: relative;
@@ -393,8 +382,6 @@ h2{
 .parcLongchamp{
     border: 0px black solid;
     border-radius: 15px;
-    -webkit-box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow:   0px 4px 5px 0px rgba(0, 0, 0, 0.6);
     box-shadow:       0px 4px 5px 0px rgba(0, 0, 0, 0.46);
     overflow: hidden;   
     position: relative;

@@ -121,9 +121,7 @@ article h2{
 .menu{
    flex-direction: column;  
    position: inherit;        
-} 
-   
-
+}   
 .harbor img{
     height:200px;
     width:100%;
@@ -132,11 +130,11 @@ article h2{
     position: inherit;
 }
 
-.pomégues img{
+.pomegues img{
     height:200px;
     width:100%;
 }
-.pomégues{ 
+.pomegues{ 
     position: inherit;
     margin: 20px auto;
 }
