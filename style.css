@@ -147,23 +147,7 @@ header a:hover{
     bottom: 3px;
     padding: 10px;
 }
-.filter-text{
-    display:flex;
-}
-.fa-info{
-    color: #0065FC;
-    border: 1px rgb(212, 211, 211) solid;
-    border-radius: 30px;
-    width:25px;
-    height: 25px;
-    position: relative;
-    top:10px;
-    text-align: center;
-}
-.filter-text p{
-    position: relative;
-    left: 20px;
-}
+
 .filter-button span{
     position: relative;
     bottom: 5px;
@@ -177,6 +161,27 @@ header a:hover{
 
 #menu1{
     display:flex;
+}
+.filter-text{
+    display:flex;
+}
+.fa-info{
+    color: #0065FC;
+    border: 1px rgb(212, 211, 211) solid;
+    border-radius: 30px;
+    width:25px;
+    height: 25px;
+    position: relative;
+    bottom:5px;
+    margin: auto 5px;
+    text-align: center;
+    padding-top:5px;
+    
+}
+ h6{
+    margin-left: 20px;
+    font-size: 13px;
+
 }
 .bestAccommodation{
     display: inline-block;
